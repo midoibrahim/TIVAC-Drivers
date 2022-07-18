@@ -111,7 +111,6 @@ typedef enum
 	PORT_PIN_CURRENT_8MA_SC  =  0x0000006E,  // 8mA drive with slew rate control
 	PORT_PIN_CURRENT_10MA    =  0x00000075,  // 10mA drive strength
 	PORT_PIN_CURRENT_12MA    =  0x00000077,  // 12mA drive strength
-
 }Port_PinOutputCurrentType;
 
 typedef struct
