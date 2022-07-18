@@ -49,8 +49,8 @@
 * \Reentrancy      : Non Reentrant                                             
 * \Parameters (in) : parameterName   Parameter Describtion                     
 * \Parameters (out): None                                                      
-* \Return value:   : Std_ReturnType  E_OK
-*                                    E_NOT_OK                                  
+* \Return value:   : None
+*                                                              
 *******************************************************************************/
 void Port_Init ( const Port_ConfigType* ConfigPtr )
 {

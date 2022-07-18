@@ -413,6 +413,11 @@
               <FileType>5</FileType>
               <FilePath>.\Src\Config\Port_Config.h</FilePath>
             </File>
+            <File>
+              <FileName>Timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Src\Mcal\Timer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

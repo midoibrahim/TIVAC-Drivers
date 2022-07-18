@@ -71,7 +71,7 @@ Dio_LevelType Dio_ReadChannel(struct Dio_PinType PinId){
 void Dio_WriteChannel(struct Dio_PinType PinId,Dio_LevelType Level){
 	if (Level == STD_HIGH)
 		{
-	STD_PIN_SET(STD_DEREF(PinId.port + STD_PIN_Offset(PinId.pin)),PinId.pin);
+	STD_DEREF(PinId.port + STD_PIN_Offset(PinId.pin))= Level;
 	}
 	else if( Level == STD_LOW)
 		{

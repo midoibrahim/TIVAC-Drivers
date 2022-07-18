@@ -31,9 +31,6 @@
  *  GLOBAL DATA TYPES AND STRUCTURES
  *********************************************************************************************************************/
 
-
-
-
 struct Dio_PinType
 {
    Port_PortType port ;
@@ -60,8 +57,6 @@ void Dio_WriteChannel(struct Dio_PinType PinId,Dio_LevelType Level);
 Dio_PortLevelType Dio_ReadPort(Port_PortType PortId);
 void Dio_WritePort(Port_PortType PortId, Dio_LevelType Level);
 Dio_LevelType Dio_FlipChannel(struct Dio_PinType PinId); 
-
-
  
 #endif  /* DIO_H */
 
